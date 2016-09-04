@@ -14,6 +14,7 @@ h1 {
   font-size: 300%;
 }
 
+/*Section title box (heading h2) is defined here*/
 h2 {
 border-bottom: 1px solid black;
 border-left: 1px solid black;
@@ -21,9 +22,13 @@ background-color: LightBlue;
 color: black;
 text-align: center;
 font-size: 125%;
+/*margins at top and right are set to zero so that the section title box is flush with the content box*/
 margin-top: 0;
 margin-right: 0;
+/*margin given here to add some space between the section title box and the text of the content*/
 margin-bottom: 3px;
+/*the width of the title box is set to be 35% of the width of the content box. Its position is relative to its normal document flow position.
+Its offset from the normal position is 65% of the width of the box to the right (from left).*/
 width: 35%;
 position: relative;
 left: 65%;
@@ -46,7 +51,7 @@ left: 65%;
   color: black;
 }
 
-/* Simple Responsive Framework. */
+/* Simple Responsive Framework. - From Lecture 24 - thanks a million Yaakov!*/
 .row {
   width: 100%;
 }
