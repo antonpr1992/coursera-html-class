@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  background-color: #E0F8EC;
+  font-family: Verdana;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: LightGreen;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* Food, LLC formatting*/
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list li {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#chicken, #beef {
+ border-bottom: 1px solid #61122f; 
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  }
+/**Main Body**/
+
+.jumbotron{
+
+  padding-top: 10px;
+  background-color: #81F7F3;
+}
+.jumbotron h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  #collapsable-nav {
+  background-color: #D0FA58;
+  border: 1px solid #61122f;
+  }
+}
